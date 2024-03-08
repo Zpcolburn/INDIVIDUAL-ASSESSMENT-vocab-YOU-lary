@@ -1,0 +1,84 @@
+{ 
+  "vocab": {
+    "-Nrzx5ud85w_OB8cE57W": {
+      "definition": "A container for storing data values, identified by a unique name. Variables can hold different types of values such as numbers, strings, or objects.",
+      "firebaseKey": "-Nrzx5ud85w_OB8cE57W",
+      "language_id": "-Ns-f7tK_wd6ma4bxXat",
+      "timeSubmitted": "2023-07-03 05:47:14",
+      "title": "Variable",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5ud85w_OB8cE57X": {
+      "definition": " An individual component or part of an HTML document, such as headings, paragraphs, images, and links. HTML elements are represented by tags and form the building blocks of web pages.",
+      "firebaseKey": "-Nrzx5ud85w_OB8cE57X",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJl",
+      "timeSubmitted": "2024-03-09 03:50:03",
+      "title": "Element",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5uejex26C_rflOD": {
+      "definition": "A pattern used to select and style elements in an HTML document. Selectors can target elements based on their tag name, class, ID, attributes, or relationship with other elements.",
+      "firebaseKey": "-Nrzx5uejex26C_rflOD",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJk",
+      "timeSubmitted": "2023-09-15 11:17:19",
+      "title": "Selector",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5uejex26C_rflOE": {
+      "definition": "A block of code that performs a specific task. Functions allow you to encapsulate reusable code and execute it by calling the function with specific parameters.",
+      "firebaseKey": "-Nrzx5uejex26C_rflOE",
+      "language_id": "-Ns-f7tK_wd6ma4bxXat",
+      "timeSubmitted": "2023-12-14 20:45:20",
+      "title": "function",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5uejex26C_rflOF": {
+      "definition": "A property that provides additional information about an HTML element. Attributes are defined within the opening tag of an element and are used to modify its behavior or appearance.",
+      "firebaseKey": "-Nrzx5uejex26C_rflOF",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJl",
+      "timeSubmitted": "2023-11-20 15:00:00",
+      "title": "Attribute",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5ufw9WQI4z9Xz_V": {
+      "definition": "A set of style rules that can be applied to multiple HTML elements. Classes allow you to group related styling properties and apply them to elements selectively.",
+      "firebaseKey": "-Nrzx5ufw9WQI4z9Xz_V",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJk",
+      "timeSubmitted": "2023-06-10 08:04:23",
+      "title": "class",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5ugG8Ju_g1IVAKg": {
+      "definition": "A data structure that stores a collection of elements, each identified by an index. Arrays can hold values of multiple data types and are mutable, meaning their elements can be changed.",
+      "firebaseKey": "-Nrzx5ugG8Ju_g1IVAKg",
+      "language_id": "-Ns-f7tK_wd6ma4bxXat",
+      "timeSubmitted": "2023-11-20 23:09:19",
+      "title": "Array",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5uhIKxvdtPb_uCg": {
+      "definition": "A keyword or code snippet that defines an HTML element. Tags are enclosed in angle brackets (< >) and specify the structure and content of web pages.",
+      "firebaseKey": "-Nrzx5uhIKxvdtPb_uCg",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJl",
+      "timeSubmitted": "2023-03-28 06:51:52",
+      "title": "tag",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5uinz49uL7deY1H": {
+      "definition": "An aspect of an element's style that can be modified using CSS. Properties define characteristics such as color, size, font, spacing, and positioning of HTML elements.",
+      "firebaseKey": "-Nrzx5uinz49uL7deY1H",
+      "language_id": "-Ns-f7tLY9nVBo-D3cJk",
+      "timeSubmitted": "2023-04-20 14:06:19",
+      "title": "property",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    },
+    "-Nrzx5ujPtMjj3bmzkZP": {
+      "definition": "An action or occurrence that takes place in the browser, such as a mouse click, keyboard input, or page load. JavaScript can respond to events by executing specified code, allowing for dynamic and interactive web pages.",
+      "firebaseKey": "-Nrzx5ujPtMjj3bmzkZP",
+      "language_id": "-Ns-f7tK_wd6ma4bxXat",
+      "timeSubmitted": "2024-03-22 11:12:08",
+      "title": "Event",
+      "uid": "3i9xCm3zX3T7gABeSMnkItkftSP2"
+    }
+  }
+}
