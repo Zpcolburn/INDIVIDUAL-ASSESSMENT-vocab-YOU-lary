@@ -1,9 +1,9 @@
 import { getVocab } from '../api/vocabData';
 import showVocab from '../pages/vocab';
 
-const navigationEvents = () => {
+const navigationEvents = (uid) => {
   document.querySelector('#all-cards').addEventListener('click', () => {
-    getVocab().then(showVocab);
+    getVocab(uid).then((vocab) => showVocab(vocab, uid));
   });
 };
 
