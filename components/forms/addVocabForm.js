@@ -16,10 +16,10 @@ const addVocabForm = (uid, obj = {}) => {
   <label for="definition" class="form-label">Definition</label>
   <input class="form-control" id="definition" value="${obj.definition || ''}"required>
 </div>
-  <button id="submit-card" type="submit" class="btn btn-primary">${obj.firebaseKey ? 'Update Card' : 'Submit Card'}</button>
+  <button id="submit-card" type="submit" class="btn btn-primary">${obj.firebaseKey ? 'Update Vocab' : 'Submit Vocab'}</button>
 </form> 
   `;
   renderToDOM('#form-container', domString);
-  selectLanguage(uid, `${obj.author_id || ''}`, uid);
+  selectLanguage(uid, `${obj.language || ''}`, uid);
 };
 export default addVocabForm;

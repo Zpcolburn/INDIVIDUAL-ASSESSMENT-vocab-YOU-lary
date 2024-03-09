@@ -2,13 +2,13 @@ import { createVocab, updateVocab, getVocab } from '../api/vocabData';
 import showVocab from '../pages/vocab';
 
 const formEvents = (uid) => {
-  document.querySelector('#navigation').addEventListener('submit', (e) => {
+  document.querySelector('#form-container').addEventListener('submit', (e) => {
     e.preventDefault();
-    // TODO: CLICK EVENT FOR SUBMITTING FORM FOR ADDING A BOOK
+    // TODO: CLICK EVENT FOR SUBMITTING FORM FOR ADDING A VOCAB
     if (e.target.id.includes('submit-vocab')) {
       const payload = {
         title: document.querySelector('#title').value,
-        language_id: document.querySelector('#language_id').value,
+        language_id: document.querySelector('#selectLanguage').value,
         definition: document.querySelector('#definition').value,
         uid
       };
@@ -22,18 +22,18 @@ const formEvents = (uid) => {
       });
     }
 
-    // TODO: CLICK EVENT FOR EDITING A BOOK
+    // TODO: CLICK EVENT FOR EDITING A Vocab
     if (e.target.id.includes('update-vocab')) {
       const [, firebaseKey] = e.target.id.split('--');
       const payload = {
         title: document.querySelector('#title').value,
-        language_id: document.querySelector('#language_id').value,
+        language_id: document.querySelector('#selectLanguage').value,
         definition: document.querySelector('#definition').value,
         firebaseKey,
       };
 
       updateVocab(payload).then(() => {
-        getVocab(uid).then(showVocab);
+        getVocab(uid).then((vocab) => showVocab(vocab, uid));
       });
     }
   });
