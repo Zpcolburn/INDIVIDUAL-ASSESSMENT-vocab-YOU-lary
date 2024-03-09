@@ -20,5 +20,17 @@ const getLanguage = (uid) => new Promise((resolve, reject) => {
     })
     .catch(reject);
 });
+// GET Single Language
+const getSingleLanguage = (firebaseKey) => new Promise((resolve, reject) => {
+  fetch(`${endpoint}/languages/${firebaseKey}.json`, {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => resolve(data))
+    .catch(reject);
+});
 
-export default getLanguage;
+export { getLanguage, getSingleLanguage };
