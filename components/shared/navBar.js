@@ -16,7 +16,7 @@ const navBar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" id="create-vocab">Create Vocab</a>
+              <a class="nav-link" href="#" id="create">Create Vocab</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" id="languages">Languages</a>
